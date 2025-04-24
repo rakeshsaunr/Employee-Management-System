@@ -1,5 +1,5 @@
 # 🚀 Employee Management System
-![Dashboard Preview](./screenshots/Dashboard_.png)
+![Dashboard Preview](Dashboard_.png)
 This is a Full Stack **Employee Management System** built with:
 
 - **Backend:** [Strapi CMS](https://strapi.io/) (Headless CMS)
