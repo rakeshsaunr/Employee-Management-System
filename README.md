@@ -27,7 +27,7 @@ It allows admins to manage employee records, departments, and roles with full CR
 - Add / Edit / Delete employees
 - Filter by department/status
 - View employee details
-- ![Employee Management System](Add-Employee.png)
+- ![Employee Management System](AddEmployee.png)
 
 ### 🏢 Department Management
 - Add / Edit / Delete departments
