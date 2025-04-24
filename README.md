@@ -21,6 +21,7 @@ It allows admins to manage employee records, departments, and roles with full CR
 - JWT-based login & registration
 - Role-based access control via Strapi
 - ![Employee Management System](register.png)
+- ![Employee Management System](login.png)
 
 ### 👤 Employee Management
 - Add / Edit / Delete employees
