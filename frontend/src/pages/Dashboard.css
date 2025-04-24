@@ -1,0 +1,149 @@
+.dashboard-container {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 95%;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+  }
+  
+  .dashboard-statistics {
+    margin-bottom: 30px;
+    background-color: #f5f5f5;
+    padding: 0;
+    border-radius: 8px;
+  }
+  
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .stat-box {
+    background-color: #fff;
+    padding: 5px 7px 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .stat-box h3 {
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    padding: 0 5px;
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+  }
+  
+  .highlight {
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .employee-form .form-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+  }
+  
+  input {
+    padding: 8px;
+    max-width: 100%;
+  }
+  
+  .btn-primary {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .export-buttons {
+    margin: 20px 0;
+  }
+  
+  .btn-success {
+    margin-right: 10px;
+    background-color: #28a745;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .employee-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .employee-card {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .profile-pic {
+    width: clamp(40px, 50px, 60px);
+    height: clamp(40px, 50px, 60px);
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .employee-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: clamp(0.9rem, 1.2vw, 1rem);
+  }
+  
+  .employee-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn-warning {
+    padding: 6px 12px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
